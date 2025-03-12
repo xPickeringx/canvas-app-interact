@@ -76,16 +76,16 @@ let gameOver = false;
 
 // Cargar imágenes
 const backgroundImage = new Image();
-backgroundImage.src = "/assets/espacio.jpg";
+backgroundImage.src = "./assets/espacio.jpg";
 
 const circleImage = new Image();
-circleImage.src = "/assets/objeto.png";
+circleImage.src = "./assets/objeto.png";
 
 // Cargar sonidos
-const clickSound = new Audio("/assets/audio/acierto.mp3");
-const failSound = new Audio("/assets/audio/fail.mp3");
-const clickAnywhereSound = new Audio("/assets/audio/laser.mp3");
-const gameOverSound = new Audio("/assets/audio/gameover.mp3");
+const clickSound = new Audio("./assets/audio/acierto.mp3");
+const failSound = new Audio("./assets/audio/fail.mp3");
+const clickAnywhereSound = new Audio("./assets/audio/laser.mp3");
+const gameOverSound = new Audio("./assets/audio/gameover.mp3");
 
 // Ajustar el volumen de los sonidos
 clickSound.volume = 0.4; // Volumen ajustado al (60%)
